@@ -28,17 +28,17 @@ stap 4 : done! just use the function in your file.
 
 
 ## sample code
-  
-include 'php_DBEngin/engin.php';
+<?php
+   include 'php_DBEngin/engin.php';
 
-print_r(fetch_data("SELECT * from admins "));
+   print_r(fetch_data("SELECT * from admins "));
 
-print_r(insert_data("INSERT INTO feelastdate(last_date) VALUES ('2019-02-2')"));
+   print_r(insert_data("INSERT INTO feelastdate(last_date) VALUES ('2019-02-2')"));
 
-print_r(update_data("UPDATE feelastdate set last_date = '1970-02-28' where id = '1' "));
+   print_r(update_data("UPDATE feelastdate set last_date = '1970-02-28' where id = '1' "));
 
-print_r(delete_data("DELETE from feelastdate where id= '2'"));
-
+   print_r(delete_data("DELETE from feelastdate where id= '2'"));
+?>
 	
    
 
