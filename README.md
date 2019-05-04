@@ -1,6 +1,6 @@
-# php_DBEngin
-Php_DBEngin a simplest way to access database in core php.
-Php_DBEngin has 4 simple function to access the database 
+# php_DBEngine
+Php_DBEngine a simplest way to access database in core php.
+Php_DBEngine has 4 simple function to access the database 
 1. fetch_data($query)   
 2. insert_data($query)
 3. update_data($query)    
@@ -18,18 +18,18 @@ above all function has a string type argument, this argument should be a databas
 
 
 ## How to use
-stap 1 : Download and put Php_DBEngin folder in your html project folder.
+stap 1 : Download and put Php_DBEngine folder in your html project folder.
 
-stap 2 : Now change the value of $servername, $username, $password, $database in php_DBEngin -> engin.php file.
+stap 2 : Now change the value of $servername, $username, $password, $database in php_DBEngine -> engine.php file.
 
-stap 3 : In your index.php( or the file where you want to use database ) file include engin.php file.
+stap 3 : In your index.php( or the file where you want to use database ) file include engine.php file.
 
 stap 4 : done! just use the function in your file.
 
 
 ## sample code
-   // including engin<br>
-   include 'php_DBEngin/engin.php';
+   // including engine<br>
+   include 'php_DBEngine/engine.php';
 
    // fetch data fom admins table<br>
    print_r(fetch_data("SELECT * from admins "));
