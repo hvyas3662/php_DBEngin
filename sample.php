@@ -1,5 +1,5 @@
 	<?php 
-	include 'php_DBEngin/engin.php';
+	include 'php_DBEngine/engine.php';
 
 	print_r(fetch_data("SELECT * from admins "));
 	echo "<br>";
