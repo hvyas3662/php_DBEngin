@@ -1,8 +1,8 @@
 <?php 
-$servername = "localhost";
-$username = "root";
-$password = "******";
-$database = "db_name";
+  $servername = "localhost";
+  $username = "root";
+  $password = "******";
+  $database = "db_name";
 
 function fetch_data($query){
 	global $servername, $username, $password, $database;
